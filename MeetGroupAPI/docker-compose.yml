@@ -1,0 +1,23 @@
+﻿version: '3'
+services:
+  web:
+    container_name: meetgroupapi
+    build: .
+    ports:
+        - "5005:5000"
+    environment:
+      DB_CONNECTION_STRING: "host=172.17.0.1;port=5432;database=meetgroupdb;username=postgres;password=postgres"
+    depends_on:
+        - database_image
+
+  database_image:
+    container_name: database_image
+    image: postgres:latest
+    ports: 
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=meetgroupdb
+    volumes:
+      - ./seed.sql:/docker-entrypoint-initdb.d/seed.sql
