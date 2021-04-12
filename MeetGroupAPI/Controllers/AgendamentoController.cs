@@ -30,6 +30,37 @@ namespace MeetGroupAPI.Controllers
         }
 
 
+
+
+        /// <summary>
+        /// Lista as reservas cadastradas
+        /// </summary>
+        /// <returns></returns>
+        [Authorize("Bearer")]
+        [HttpGet]
+        public object GetAll()
+        {
+
+            var query = (from u in _context.Usuario
+                         join r in _context.Reserva on u.IdUsuario equals r.IdUsuarioReserva
+                        select new {
+                          reserva = r.IdReserva,
+                          usuario =   u.NomeUsuario,
+                          dataInicioReserva =  r.DataInicioReserva,
+                          dataFimReserva = r.DataFimReserva,
+                          horaInicio = r.HoraInicioReserva,
+                          horaFim = r.HoraFimReserva,
+                          quantidadePessoas = r.QuantidadePessoasReserva,
+                          computador = r.ComputadorReserva,
+                          tv = r.TvReserva,
+                          internet = r.InternetReserva,
+                          webcam = r.WebcamReserva,
+                        });
+
+            return Ok(query);
+        }
+
+
         /// <summary>
         /// Agendar Reserva de sala
         /// </summary>
@@ -70,7 +101,7 @@ namespace MeetGroupAPI.Controllers
                               c.QuantidadeEquipamentoSala
                           }).ToList();
 
-                        mensagem = "Data cadastrada escolha outra!";
+                        mensagem = "Esta data e hora já esta sendo usada! escolha outra.";
                         return Ok(new { mensagem, order });
                     }
                 }

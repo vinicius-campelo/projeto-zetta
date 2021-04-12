@@ -4,6 +4,12 @@
         <name>MeetGroupAPI</name>
     </assembly>
     <members>
+        <member name="M:MeetGroupAPI.Controllers.AgendamentoController.GetAll">
+            <summary>
+            Lista as reservas cadastradas
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:MeetGroupAPI.Controllers.AgendamentoController.Post(MeetGroupAPI.Models.ModelViews.ReservaModel)">
             <summary>
             Agendar Reserva de sala

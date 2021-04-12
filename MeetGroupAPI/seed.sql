@@ -40,7 +40,6 @@ statusReserva boolean null
 
 
 
-
 INSERT INTO usuario(idusuario, nomeusuario, telefoneusuario, emialusuario, senhausuario, statususuario) VALUES (1,"vinicius campelo","61991759170","autanbr@gmail.com","kwZMESCCWCQ=",true)
 INSERT INTO usuario(idusuario, nomeusuario, telefoneusuario, emialusuario, senhausuario, statususuario) VALUES (2,"Maria Silva","62999855652","mariasilva@email.com","FgZbdvWjq6E=",true)
 INSERT INTO usuario(idusuario, nomeusuario, telefoneusuario, emialusuario, senhausuario, statususuario) VALUES (3,"Anderson Silva","6199487589","anderson@email.com","kwZMESCCWCQ=",true)
@@ -51,7 +50,6 @@ INSERT INTO equipamento(idequipamento, nomeequipamento, statusequipamento) VALUE
 INSERT INTO equipamento(idequipamento, nomeequipamento, statusequipamento) VALUES (4,"Webcam",true)
 INSERT INTO equipamento(idequipamento, nomeequipamento, statusequipamento) VALUES (5,"Todos",true)
 INSERT INTO equipamento(idequipamento, nomeequipamento, statusequipamento) VALUES (6,"Inexistente",true)
-
 
 INSERT INTO sala(idsala, numerosala, quantidadelugaressala, quantidadeequipamentosala, idsalaequipamento, statussala) VALUES (1,1,10,4,5,true)
 INSERT INTO sala(idsala, numerosala, quantidadelugaressala, quantidadeequipamentosala, idsalaequipamento, statussala) VALUES (3,3,10,4,5,true)
