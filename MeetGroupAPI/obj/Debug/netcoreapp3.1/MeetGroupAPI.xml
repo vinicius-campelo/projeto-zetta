@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MeetGroupAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MeetGroupAPI.Controllers.AgendamentoController.Post(MeetGroupAPI.Models.ModelViews.ReservaModel)">
+            <summary>
+            Agendar Reserva de sala
+            </summary>
+            <param name="reservaModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MeetGroupAPI.Controllers.LoginController.PostAsync(MeetGroupAPI.Models.UsuarioModel)">
+             <summary>
+             Retorna o token de usuario.
+             </summary>
+               /// <remarks>
+             Exemplo:
+            
+                 POST /login
+                 {
+                    "Email": "pessoa@email",
+                    "Senha": "suasenha123"
+                 }
+              Exemplo url: api/Login
+             </remarks>
+             <returns>Token para uso na API</returns>
+             <response code="200">Sucesso na requisição</response>
+             <response code="201">Retorna item encontrado</response>
+             <response code="401">Requer autorização ou autenticação de usuário e senha. (Token)</response>
+             <response code="404">Item não encontrado</response>
+        </member>
+        <member name="M:MeetGroupAPI.Controllers.UsuariosController.GetAll">
+            <summary>
+            Lista os usuarios ja cadastrados!
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MeetGroupAPI.Controllers.UsuariosController.Post(MeetGroupAPI.Models.UsuarioCadastroModel)">
+            <summary>
+            Cadastra usuario.
+            </summary>
+            <param name="usuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MeetGroupAPI.Data.Repositories.UsuarioRepository.LoginUsuario(MeetGroupAPI.Models.Usuario)">
+            <summary>
+            Traz dados de usuario (token)
+            </summary>
+            <param name="user"></param>
+            <returns>token</returns>
+        </member>
+        <member name="M:MeetGroupAPI.Data.Repositories.UsuarioRepository.CreateToken(System.Security.Claims.ClaimsIdentity,System.DateTime,System.DateTime,System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler)">
+            <summary>
+            Cria o token de usuario
+            </summary>
+            <param name="identity"></param>
+            <param name="createDate"></param>
+            <param name="expirationDate"></param>
+            <param name="handler"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MeetGroupAPI.Data.Repositories.UsuarioRepository.SuccessObject(System.DateTime,System.DateTime,System.String,MeetGroupAPI.Models.Usuario)">
+            <summary>
+            Retorna as informações de Header do usuario logado.
+            </summary>
+            <param name="createDate"></param>
+            <param name="expirationDate"></param>
+            <param name="token"></param>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wiki.Api.Data.Utils.LoadToken.ViewToken(System.String)">
+            <summary>
+            Retorna somente o token
+            </summary>
+            <param name="token"></param>
+            <returns>token</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,5 @@
+﻿Build iniciado...
+1>------ Compilação iniciada: Projeto: MeetGroupAPI, Configuração: Debug Any CPU ------
+1>docker exec -i 1376e7e6199b0d8a2f6c9235c4a6e3d1ecb3eb3cff74ad0f5bb462dd94bd3523 /bin/sh -c "if PID=$(pidof dotnet); then kill $PID; fi"
+1>MeetGroupAPI -> D:\MeetGroupAPI\bin\Debug\netcoreapp3.1\MeetGroupAPI.dll
+========== Compilar: 1 com êxito, 0 com falha, 0 atualizados, 0 ignorados ==========

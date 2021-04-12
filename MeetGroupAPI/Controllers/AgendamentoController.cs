@@ -6,10 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
 using Wiki.Api.Data.Utils;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -60,16 +57,27 @@ namespace MeetGroupAPI.Controllers
 
             if (result.Count > 0)
             {
-               var order = _context.Sala.Where(p => p.QuantidadeLugaresSala == reservaModel.Quantidade_Pessoas && p.StatusSala == false)
-                   .Select((c) => new
-                   {
-                      c.NumeroSala,
-                      c.QuantidadeLugaresSala,
-                      c.QuantidadeEquipamentoSala
-                   }).ToList();
 
-                mensagem = "Data cadastrada escolha outra!";
-                return Ok(new { mensagem, order });
+                foreach (var item in result)
+                {
+                    if (TimeSpan.Parse(item.HoraInicioReserva) <= h1 && TimeSpan.Parse(item.HoraFimReserva) >= h2)
+                    {
+                        var order = _context.Sala.Where(p => p.QuantidadeLugaresSala == reservaModel.Quantidade_Pessoas && p.StatusSala == false)
+                          .Select((c) => new
+                          {
+                              c.NumeroSala,
+                              c.QuantidadeLugaresSala,
+                              c.QuantidadeEquipamentoSala
+                          }).ToList();
+
+                        mensagem = "Data cadastrada escolha outra!";
+                        return Ok(new { mensagem, order });
+                    }
+                }
+
+
+
+
             }
             else
             {
@@ -83,7 +91,9 @@ namespace MeetGroupAPI.Controllers
                     ComputadorReserva = reservaModel.Computador,
                     TvReserva = reservaModel.Tv,
                     InternetReserva = reservaModel.Internet,
-                    WebcamReserva = reservaModel.Webcam
+                    WebcamReserva = reservaModel.Webcam,
+                    IdUsuarioReserva = int.Parse(payload),
+                    StatusReserva = true
                 };
 
                 _agendamentoInterface.InsertAsync(reserva);
