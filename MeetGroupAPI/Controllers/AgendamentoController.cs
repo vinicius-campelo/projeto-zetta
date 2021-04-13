@@ -41,6 +41,7 @@ namespace MeetGroupAPI.Controllers
         public object GetAll()
         {
 
+           
             var query = (from u in _context.Usuario
                          join r in _context.Reserva on u.IdUsuario equals r.IdUsuarioReserva
                         select new {
@@ -56,7 +57,7 @@ namespace MeetGroupAPI.Controllers
                           internet = r.InternetReserva,
                           webcam = r.WebcamReserva,
                         });
-
+            
             return Ok(query);
         }
 
