@@ -1,0 +1,217 @@
+﻿-------------------------------------------------------------------
+You may only use the Microsoft .NET Core Debugger (vsdbg) with
+Visual Studio Code, Visual Studio or Visual Studio for Mac software
+to help you develop and test your applications.
+-------------------------------------------------------------------
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Private.CoreLib.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/MeetGroupAPI.dll'. Símbolos carregados.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Runtime.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Hosting.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Hosting.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Hosting.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/netstandard.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Collections.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.ComponentModel.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.IO.FileSystem.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Runtime.Extensions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Hosting.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Configuration.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Configuration.EnvironmentVariables.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Threading.Tasks.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Linq.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Threading.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Server.Kestrel.Core.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Server.Kestrel.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Server.IIS.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Runtime.InteropServices.RuntimeInformation.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Runtime.InteropServices.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Server.IISIntegration.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Configuration.CommandLine.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Configuration.UserSecrets.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Mvc.Core.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.FileProviders.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.FileProviders.Physical.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Memory.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Configuration.FileExtensions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Configuration.Json.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Configuration.Binder.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Private.Uri.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Http.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.FileProviders.Composite.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Xml.XDocument.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Private.Xml.Linq.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Private.Xml.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Threading.Thread.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Security.Cryptography.Algorithms.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Collections.Concurrent.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Text.Encoding.Extensions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.IO.FileSystem.Watcher.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.ComponentModel.Primitives.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.FileSystemGlobbing.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Threading.Timer.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Buffers.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Text.Json.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Numerics.Vectors.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Runtime.CompilerServices.Unsafe.dll'. O módulo foi criado sem símbolos.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Logging.EventLog.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Logging.Configuration.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Options.ConfigurationExtensions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Logging.Console.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Logging.Debug.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Logging.EventSource.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Diagnostics.Tracing.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Http.Features.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Http.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Connections.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Net.Primitives.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.HostFiltering.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.HttpOverrides.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Routing.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.ObjectPool.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Routing.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.ObjectModel.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Cors.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Authentication.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Authentication.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Authorization.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Authorization.Policy.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Mvc.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Authentication.Core.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Security.Claims.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.DataProtection.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.DataProtection.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Cryptography.Internal.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.WebEncoders.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Text.Encodings.Web.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Mvc.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Mvc.ApiExplorer.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Mvc.Cors.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Mvc.DataAnnotations.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Reflection.Emit.Lightweight.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.Localization.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Threading.ThreadPool.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Console.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.ComponentModel.TypeConverter.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Collections.Specialized.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Drawing.Primitives.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/Microsoft.Win32.Primitives.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/Microsoft.Win32.Registry.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Resources.ResourceManager.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+warn: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository[60]
+      Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Diagnostics.Debug.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository: Warning: Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/System.IO.Pipelines.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {2fffb438-6052-4ab0-8583-b170800dba5b} may be persisted to storage in unencrypted form.
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Warning: No XML encryptor configured. Key {2fffb438-6052-4ab0-8583-b170800dba5b} may be persisted to storage in unencrypted form.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Text.RegularExpressions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Reflection.Emit.ILGeneration.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Reflection.Primitives.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Security.Cryptography.Primitives.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.HttpsPolicy.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Linq.Expressions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Diagnostics.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Net.Http.Headers.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Security.Principal.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Metadata.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado 'Anonymously Hosted DynamicMethods Assembly'. 
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.StaticFiles.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.Extensions.FileProviders.Embedded.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Diagnostics.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Security.Cryptography.X509Certificates.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Security.Cryptography.OpenSsl.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Security.Cryptography.Encoding.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Runtime.Numerics.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Net.Sockets.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+info: Microsoft.Hosting.Lifetime[0]
+      Now listening on: https://[::]:443
+Microsoft.Hosting.Lifetime: Information: Now listening on: https://[::]:443
+info: Microsoft.Hosting.Lifetime[0]
+      Now listening on: http://[::]:80
+Microsoft.Hosting.Lifetime: Information: Now listening on: http://[::]:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime: Information: Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+Microsoft.Hosting.Lifetime: Information: Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /app
+Microsoft.Hosting.Lifetime: Information: Content root path: /app
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Net.Security.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Collections.NonGeneric.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Xml.XPath.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Xml.ReaderWriter.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Net.WebSockets.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.Http.Extensions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+O thread 0x4a foi fechado com o código 0 (0x0).
+O thread 0x3e foi fechado com o código 0 (0x0).
+O thread 0x4c foi fechado com o código 0 (0x0).
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Npgsql.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Data.Common.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Transactions.Local.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Net.NetworkInformation.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.AspNetCore.App/3.1.13/Microsoft.AspNetCore.WebUtilities.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Linq.Queryable.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Security.Cryptography.Csp.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/Microsoft.VisualBasic.Core.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Threading.Channels.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Net.NameResolution.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Runtime.Serialization.Primitives.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Globalization.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.IO.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Reflection.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Dynamic.Runtime.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Runtime.Serialization.Formatters.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Reflection.Extensions.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+O thread 0x36 foi fechado com o código 0 (0x0).
+O thread 0x3d foi fechado com o código 0 (0x0).
+Carregado '/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.13/System.Net.Http.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+Carregado '/app/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll'. Carregamento de símbolos ignorado. O módulo está otimizado e a opção do depurador 'Apenas Meu Código' está habilitada.
+O thread 0x60 foi fechado com o código 0 (0x0).
+O thread 0x5d foi fechado com o código 0 (0x0).
+O thread 0x32 foi fechado com o código 0 (0x0).
+O thread 0x4b foi fechado com o código 0 (0x0).
+Entrada: percorrendo código de não usuário "<>f__AnonymousType3.get_mensagem"
+O thread 'Thread de Trabalho' (0x83) foi fechado com o código 0 (0x0).
+O thread '<Sem Nome>' (0x7a) foi fechado com o código 0 (0x0).
+O thread 'Thread de Trabalho' (0x82) foi fechado com o código 0 (0x0).
+O thread '<Sem Nome>' (0x79) foi fechado com o código 0 (0x0).
+O thread 'Thread de Trabalho' (0x62) foi fechado com o código 0 (0x0).
+O thread '<Sem Nome>' (0x78) foi fechado com o código 0 (0x0).
+O thread '<Sem Nome>' (0xc5) foi fechado com o código 0 (0x0).
+O thread 'Thread de Trabalho' (0xc4) foi fechado com o código 0 (0x0).
+O thread '<Sem Nome>' (0xb0) foi fechado com o código 0 (0x0).
+O thread 'Thread de Trabalho' (0x4d) foi fechado com o código 0 (0x0).
+O programa "dotnet" foi fechado com o código 0 (0x0).

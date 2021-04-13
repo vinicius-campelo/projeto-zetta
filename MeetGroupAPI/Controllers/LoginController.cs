@@ -43,7 +43,7 @@ namespace MeetGroupAPI.Controllers
         /// <response code="404">Item não encontrado</response>
         [AllowAnonymous]
         [HttpPost]
-        public async Task<object> PostAsync([FromBody] UsuarioModel usuarioModel)
+        public async Task<object> PostAsync([FromBody] TokenModel usuarioModel)
         {
 
             if (!ModelState.IsValid)

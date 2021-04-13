@@ -17,7 +17,7 @@
             <param name="reservaModel"></param>
             <returns></returns>
         </member>
-        <member name="M:MeetGroupAPI.Controllers.LoginController.PostAsync(MeetGroupAPI.Models.UsuarioModel)">
+        <member name="M:MeetGroupAPI.Controllers.LoginController.PostAsync(MeetGroupAPI.Models.TokenModel)">
              <summary>
              Retorna o token de usuario.
              </summary>

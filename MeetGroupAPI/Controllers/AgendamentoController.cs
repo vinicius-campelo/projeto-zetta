@@ -78,40 +78,79 @@ namespace MeetGroupAPI.Controllers
             }
 
             var mensagem = "";
+            var count = 0;
             _accessor.HttpContext.Request.Headers.TryGetValue("Authorization", out StringValues token);
             var payload = LoadToken.ViewToken(token).First(p => p.Type == "nameid").Value;
 
             var h1 = TimeSpan.Parse(reservaModel.Hora_Inicio);
             var h2 = TimeSpan.Parse(reservaModel.Hora_Fim);
+            var totalDias = (reservaModel.Data_Inicio.Subtract(reservaModel.Data_Fim)).Days;
+
+
+            if (reservaModel.Data_Inicio.DayOfWeek == DayOfWeek.Saturday || reservaModel.Data_Inicio.DayOfWeek == DayOfWeek.Sunday ||
+                    reservaModel.Data_Fim.DayOfWeek == DayOfWeek.Saturday || reservaModel.Data_Fim.DayOfWeek == DayOfWeek.Sunday)
+            {
+                return Ok(new { message = "As reuniões devem ser agendadas apenas para os dias úteis!" });
+            }else if (reservaModel.Data_Inicio == DateTime.Today)
+            {
+                return Ok(new { message = "As reuniões devem ser agendadas com no mínimo um dia de antecedência!" });
+            }else if (totalDias > 40)
+            {
+                return Ok(new { message = "As reuniões devem ser agendadas com no máximo 40 dias de antecedência!" });
+            }else if (h1.Add(h2).Hours > 8)
+            {
+                return Ok(new { message = "Reuniões não podem durar mais que 8 horas!" });
+            }
+
+
 
             var result = _context.Reserva.Where(p => p.DataInicioReserva <= reservaModel.Data_Inicio &&
             p.DataFimReserva >= reservaModel.Data_Fim).ToList();
 
             if (result.Count > 0)
             {
-
                 foreach (var item in result)
                 {
                     if (TimeSpan.Parse(item.HoraInicioReserva) <= h1 && TimeSpan.Parse(item.HoraFimReserva) >= h2)
                     {
+                        count++;
                         var order = _context.Sala.Where(p => p.QuantidadeLugaresSala == reservaModel.Quantidade_Pessoas && p.StatusSala == false)
                           .Select((c) => new
                           {
                               c.NumeroSala,
                               c.QuantidadeLugaresSala,
                               c.QuantidadeEquipamentoSala
-                          }).ToList();
+                          }).ToList().Take(3);
 
-                        mensagem = "Esta data e hora já esta sendo usada! escolha outra.";
+                        mensagem = "Não se pode agendar reuniões conflitantes de lugar e hora! escolha outra data/hora";
                         return Ok(new { mensagem, order });
                     }
                 }
-
-
-
-
             }
             else
+            {
+                var reserva = new Reserva
+                {
+                    
+                    DataInicioReserva = reservaModel.Data_Inicio,
+                    DataFimReserva = reservaModel.Data_Fim,
+                    HoraInicioReserva = reservaModel.Hora_Inicio,
+                    HoraFimReserva = reservaModel.Hora_Fim,
+                    QuantidadePessoasReserva = reservaModel.Quantidade_Pessoas,
+                    ComputadorReserva = reservaModel.Computador,
+                    TvReserva = reservaModel.Tv,
+                    InternetReserva = reservaModel.Internet,
+                    WebcamReserva = reservaModel.Webcam,
+                    IdUsuarioReserva = int.Parse(payload),
+                    StatusReserva = true
+                };
+                count++;
+                _agendamentoInterface.InsertAsync(reserva);
+                mensagem = "Reserva cadastrada!";
+            }
+
+
+            if(count == 0)
             {
                 var reserva = new Reserva
                 {

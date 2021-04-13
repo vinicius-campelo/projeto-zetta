@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace MeetGroupAPI.Models
 {
     [Serializable]
-    public class UsuarioModel
+    public class TokenModel
     {
         [Required(ErrorMessage = "Email é obrigatório!")]
         [EmailAddress(ErrorMessage = "Email com formato invalido!")]
