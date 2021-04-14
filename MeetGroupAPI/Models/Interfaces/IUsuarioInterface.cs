@@ -8,5 +8,6 @@ namespace MeetGroupAPI.Models.Interfaces
     public interface IUsuarioInterface : IRepository<Usuario>
     {
         Task<object> LoginUsuario(Usuario user);
+
     }
 }

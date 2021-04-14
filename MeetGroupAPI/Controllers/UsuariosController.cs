@@ -35,6 +35,7 @@ namespace MeetGroupAPI.Controllers
         [HttpGet]
         public object GetAll()
         {
+
             var result = _context.Usuario.Select((c) => new
             {
               c.IdUsuario,
@@ -44,6 +45,7 @@ namespace MeetGroupAPI.Controllers
             }).ToList();
 
             return Ok(result);
+            
         }
 
 
