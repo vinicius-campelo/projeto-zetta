@@ -35,7 +35,8 @@ tvReserva boolean null,
 internetReserva boolean null,
 webcamReserva boolean null,
 idUsuarioReserva int not null,
-statusReserva boolean null
+statusReserva boolean null,
+FOREIGN KEY (idUsuarioReserva) REFERENCES usuario(idUsuario)
 );
 
 

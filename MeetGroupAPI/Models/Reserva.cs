@@ -1,9 +1,12 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MeetGroupAPI.Models
 {
     public partial class Reserva
     {
+
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IdReserva { get; set; }
         public DateTime DataInicioReserva { get; set; }
         public DateTime DataFimReserva { get; set; }
@@ -16,6 +19,6 @@ namespace MeetGroupAPI.Models
         public bool WebcamReserva { get; set; }
         public int IdUsuarioReserva { get; set; }
         public bool StatusReserva { get; set; }
-        //public virtual Usuario IdUsuarioReservaNavigation { get; set; }
+        public virtual Usuario IdUsuarioReservaNavigation { get; set; }
     }
 }

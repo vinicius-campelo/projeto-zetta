@@ -139,3 +139,4 @@ C:\Users\WIKI - PC\Source\Repos\vinicius-campelo\projeto-zetta\MeetGroupAPI\obj\
 C:\Users\WIKI - PC\Source\Repos\vinicius-campelo\projeto-zetta\MeetGroupAPI\obj\Debug\netcoreapp3.1\MeetGroupAPI.xml
 C:\Users\WIKI - PC\Source\Repos\vinicius-campelo\projeto-zetta\MeetGroupAPI\obj\Debug\netcoreapp3.1\MeetGroupAPI.pdb
 C:\Users\WIKI - PC\Source\Repos\vinicius-campelo\projeto-zetta\MeetGroupAPI\obj\Debug\netcoreapp3.1\MeetGroupAPI.genruntimeconfig.cache
+C:\Users\WIKI - PC\Source\Repos\vinicius-campelo\projeto-zetta\MeetGroupAPI\obj\Debug\netcoreapp3.1\MeetGroupAPI.csprojAssemblyReference.cache

@@ -23,6 +23,11 @@ namespace Data.Mapping
             builder.Property(e => e.WebcamReserva).HasColumnName("webcamreserva");
             builder.Property(e => e.StatusReserva).HasColumnName("statusreserva");
 
+            builder.HasOne(d => d.IdUsuarioReservaNavigation)
+                    .WithMany(p => p.Reserva)
+                    .HasForeignKey(d => d.IdUsuarioReserva)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("reserva_idusuarioreserva_fkey");
         }
     }
 }

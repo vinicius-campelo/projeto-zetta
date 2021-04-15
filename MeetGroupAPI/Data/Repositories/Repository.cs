@@ -10,7 +10,7 @@ namespace MeetGroupAPI.Data.Repositories
 {
     public abstract class Repository<T> : IRepository<T> where T : class
     {
-        private readonly ApiDbContext _context;
+        protected readonly ApiDbContext _context;
         protected DbSet<T> _dataset;
 
         public Repository(ApiDbContext context)

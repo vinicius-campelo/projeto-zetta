@@ -4,6 +4,10 @@ namespace MeetGroupAPI.Models
 {
     public partial class Usuario
     {
+        public Usuario()
+        {
+            Reserva = new HashSet<Reserva>();
+        }
 
         public int IdUsuario { get; set; }
         public string NomeUsuario { get; set; }
@@ -12,5 +16,6 @@ namespace MeetGroupAPI.Models
         public string SenhaUsuario { get; set; }
         public bool StatusUsuario { get; set; }
 
+        public virtual ICollection<Reserva> Reserva { get; set; }
     }
 }
