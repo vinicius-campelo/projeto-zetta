@@ -10,38 +10,42 @@ jobs:
     steps:
       - name: Run a one-line script
         run: echo Hello, world!
+		
+		
+  deploy-dev:
+    runs-on: ubuntu-latest
+    environment:
+      name: dev
+      url: 'autanbr.com'
+
+    needs: build
+    steps:
+      - name: Run a one-line script2
+        run: echo desenvolvimento
+
+
+  deploy-hmg:
+      runs-on: ubuntu-latest
+      environment:
+        name: hmg
+        url: 'autanbr.com'
+
+      needs: deploy-dev
+      steps:
+        - name: Run a one-line script2
+          run: echo desenvolvimento
 
 
 
-deploy-dev:
-  runs-on: ubuntu-latest
-  enviroment:
-    name: dev
-    url: 'autanbr.com.br'
-  needs: build
-  steps:
-    - name: Run a one-line script
-      run: echo desenvolvimento
-  
+			
+  deploy-prd:
+        runs-on: ubuntu-latest
+        environment:
+          name: prd
+          url: 'autanbr.com'
 
-deploy-hmg:
-  runs-on: ubuntu-latest
-  enviroment:
-    name: dev
-    url: 'autanbr.com.br'
-  needs: deploy-dev
-  steps:
-    - name: Run a one-line script
-      run: echo homologacao
-      
-      
-deploy-prd:
-  runs-on: ubuntu-latest
-  enviroment:
-    name: dev
-    url: 'autanbr.com.br'
-  needs: deploy-hmg
-  steps:
-    - name: Run a one-line script
-      run: echo producao
+        needs: deploy-hmg
+        steps:
+          - name: Run a one-line script2
+            run: echo desenvolvimento
 
