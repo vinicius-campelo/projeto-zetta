@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: dev
-      url: 'autanbr.com'
+      url: 'http://autanbr.com/dev'
     needs: build
     steps:
       - name: Run a one-line script2
@@ -23,7 +23,7 @@ jobs:
       runs-on: ubuntu-latest
       environment:
         name: hmg
-        url: 'autanbr.com'
+        url: 'http://autanbr.com/hmg'
 
       needs: deploy-dev
       steps:
@@ -33,7 +33,7 @@ jobs:
         runs-on: ubuntu-latest
         environment:
           name: prd
-          url: 'autanbr.com'
+          url: 'http://autanbr.com/prd'
 
         needs: deploy-hmg
         steps:
